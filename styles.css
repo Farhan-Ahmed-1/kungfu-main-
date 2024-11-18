@@ -222,6 +222,13 @@ nav {
 .explore__grid {
   margin-top: 4rem;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.explore__grid1 {
+  margin-top: 4rem;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
